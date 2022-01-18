@@ -1,0 +1,77 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+
+}
+h1{
+  font-size: 50px;
+}
+.Heading-down{
+  display: block;
+  padding-top: 50px;
+}
+.orange_highliter{
+  color: orange;
+}
+.half-width{
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+
+}
+.half-width img{
+  width: 100%; /* it's mean image joto boroe hok na kan it's takes it's section width. It's not takes it's full images dimations */
+
+}
+section{
+  height: 500px;
+  /* border: 1px solid red;  for see what's going on there */
+  padding-bottom: 150px;
+}
+.top-banner{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.anchor-button{
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 5px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 40px;
+}
+p{
+  color: dimgray;
+}
+
+h2{
+  font-size: 40px;
+}
+.dream-area{
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area div{
+  box-shadow: 5px 7px 40px gray;
+  height: 80%;}
+#full-stack{
+    border-left: 4px solid;
+    border-image:linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+  }
+  #baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+  }
+  .experience-area{
+    background:url("images/exp-bg.png") no-repeat left;
+  }
+  footer p{
+    text-align: center;
+    font-size: 14px;
+  }
